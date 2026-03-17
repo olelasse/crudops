@@ -1,0 +1,478 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "userName": "Ola Nordmann",
+      "password": "abc123",
+      "email": "ola@example.com",
+      "description": "Trenger hundepass i helger og ferier",
+      "dogs": [
+        {
+          "id": 1,
+          "name": "Bella",
+          "breed": "Golden Retriever",
+          "age": 4,
+          "allergies": ["kylling"]
+        },
+        {
+          "id": 2,
+          "name": "Max",
+          "breed": "Labrador",
+          "age": 2,
+          "allergies": []
+        }
+      ],
+      "created": "2025-09-01T10:30:00",
+      "updated": "2025-09-10T14:20:00"
+    },
+    {
+      "id": 2,
+      "userName": "Kari Johansen",
+      "password": "passord123",
+      "email": "kari.johansen@example.com",
+      "description": "Jobber turnus og trenger noen til å gå tur med Luna på kveldstid i oddetallsuker.",
+      "dogs": [
+        {
+          "id": 3,
+          "name": "Luna",
+          "breed": "Border Collie",
+          "age": 3,
+          "allergies": []
+        }
+      ],
+      "created": "2025-09-02T08:15:00",
+      "updated": "2025-09-11T09:30:00"
+    },
+    {
+      "id": 3,
+      "userName": "Lars Monsen",
+      "password": "villmark1",
+      "email": "lars@villmark.no",
+      "description": "Er mye på tur, men trenger pass til hundene når jeg holder foredrag.",
+      "dogs": [
+        {
+          "id": 4,
+          "name": "Bamse",
+          "breed": "Alaskan Malamute",
+          "age": 6,
+          "allergies": ["fisk"]
+        },
+        {
+          "id": 5,
+          "name": "Tundra",
+          "breed": "Siberian Husky",
+          "age": 2,
+          "allergies": []
+        }
+      ],
+      "created": "2025-09-03T14:45:00",
+      "updated": "2025-09-03T14:45:00"
+    },
+    {
+      "id": 4,
+      "userName": "Ingrid Aune",
+      "password": "sikkerhet55",
+      "email": "ingrid.aune@mail.com",
+      "description": "Trenger pass i fellesferien da vi skal reise til syden.",
+      "dogs": [
+        {
+          "id": 6,
+          "name": "Fido",
+          "breed": "Blandingshund",
+          "age": 8,
+          "allergies": ["korn", "biff"]
+        }
+      ],
+      "created": "2025-09-05T19:20:00",
+      "updated": "2025-09-12T10:10:00"
+    },
+    {
+      "id": 5,
+      "userName": "Erik Solbakken",
+      "password": "tv2erik",
+      "email": "erik@underholdning.no",
+      "description": "Leter etter en fast hundepasser i helgene som er god med store hunder.",
+      "dogs": [
+        {
+          "id": 7,
+          "name": "Rex",
+          "breed": "Schäfer",
+          "age": 5,
+          "allergies": []
+        }
+      ],
+      "created": "2025-09-06T11:00:00",
+      "updated": "2025-09-06T11:00:00"
+    },
+    {
+      "id": 6,
+      "userName": "Sara Eilertsen",
+      "password": "pusur99",
+      "email": "sara.eilertsen@student.no",
+      "description": "Student som trenger litt avlastning i eksamensperioden. Molly er veldig leken!",
+      "dogs": [
+        {
+          "id": 8,
+          "name": "Molly",
+          "breed": "Cocker Spaniel",
+          "age": 1,
+          "allergies": []
+        }
+      ],
+      "created": "2025-09-08T16:30:00",
+      "updated": "2025-09-09T08:45:00"
+    }
+  ],
+  "petSitters": [
+    {
+      "id": 1,
+      "name": "Kari Hansen",
+      "location": "Oslo",
+      "pricePerDay": 400,
+      "rating": 4.6,
+      "reviewCount": 12,
+      "maxDogs": 2,
+      "acceptsPuppies": true,
+      "acceptsLargeDogs": false,
+      "yearsOfExperience": 5,
+      "experienceDescription": "Erfaring med valper, seniorhunder og lange turer",
+      "available": true,
+      "created": "2025-09-02T09:00:00",
+      "updated": "2025-09-12T16:45:00"
+    },
+    {
+      "id": 2,
+      "name": "Per Olsen",
+      "location": "Bergen",
+      "pricePerDay": 350,
+      "rating": 4.2,
+      "reviewCount": 8,
+      "maxDogs": 1,
+      "acceptsPuppies": false,
+      "acceptsLargeDogs": true,
+      "yearsOfExperience": 3,
+      "experienceDescription": "Elsker store hunder og fjellturer. Har hatt Schäfer selv.",
+      "available": true,
+      "created": "2025-09-03T10:00:00",
+      "updated": "2025-09-15T09:20:00"
+    },
+    {
+      "id": 3,
+      "name": "Trine Bakke",
+      "location": "Trondheim",
+      "pricePerDay": 500,
+      "rating": 4.9,
+      "reviewCount": 25,
+      "maxDogs": 3,
+      "acceptsPuppies": true,
+      "acceptsLargeDogs": true,
+      "yearsOfExperience": 10,
+      "experienceDescription": "Profesjonell hundepasser med stor inngjerdet hage.",
+      "available": false,
+      "created": "2025-09-04T12:30:00",
+      "updated": "2025-10-01T14:15:00"
+    },
+    {
+      "id": 4,
+      "name": "Anders Nilsen",
+      "location": "Stavanger",
+      "pricePerDay": 250,
+      "rating": 3.8,
+      "reviewCount": 3,
+      "maxDogs": 1,
+      "acceptsPuppies": true,
+      "acceptsLargeDogs": false,
+      "yearsOfExperience": 1,
+      "experienceDescription": "Student som savner hunden hjemme. Liker å leke og kose.",
+      "available": true,
+      "created": "2025-09-05T16:45:00",
+      "updated": "2025-09-05T16:45:00"
+    },
+    {
+      "id": 5,
+      "name": "Silje Berg",
+      "location": "Tromsø",
+      "pricePerDay": 600,
+      "rating": 5.0,
+      "reviewCount": 42,
+      "maxDogs": 4,
+      "acceptsPuppies": true,
+      "acceptsLargeDogs": true,
+      "yearsOfExperience": 15,
+      "experienceDescription": "Utdannet hundeinstruktør. Tilbyr også trening under oppholdet.",
+      "available": true,
+      "created": "2025-08-20T08:00:00",
+      "updated": "2025-09-20T11:10:00"
+    },
+    {
+      "id": 6,
+      "name": "Mohamed Ali",
+      "location": "Oslo",
+      "pricePerDay": 300,
+      "rating": 4.5,
+      "reviewCount": 6,
+      "maxDogs": 2,
+      "acceptsPuppies": false,
+      "acceptsLargeDogs": true,
+      "yearsOfExperience": 4,
+      "experienceDescription": "Vant med aktive raser som Husky og Malamute.",
+      "available": true,
+      "created": "2025-09-10T14:00:00",
+      "updated": "2025-09-18T10:00:00"
+    }
+  ],
+  "bookings": [
+    {
+      "id": 101,
+      "userId": 1,
+      "userDogId": 1,
+      "petSitterId": 1,
+      "fromDate": "2026-01-10",
+      "toDate": "2026-01-12",
+      "status": "pending",
+      "message": "Hei! Max er snill og vant til andre hunder. Ingen allergier.",
+      "created": "2025-12-30T12:15:00",
+      "updated": "2025-12-30T12:15:00"
+    },
+    {
+      "id": 102,
+      "userId": 2,
+      "userDogId": 3,
+      "petSitterId": 1,
+      "fromDate": "2025-11-10",
+      "toDate": "2025-11-12",
+      "status": "finished",
+      "message": "Luna gleder seg til tur!",
+      "created": "2025-10-01T10:00:00",
+      "updated": "2025-11-13T12:00:00"
+    },
+    {
+      "id": 103,
+      "userId": 3,
+      "userDogId": 4,
+      "petSitterId": 1,
+      "fromDate": "2026-02-01",
+      "toDate": "2026-02-05",
+      "status": "accepted",
+      "message": "Bamse trenger litt ekstra oppmerksomhet rundt mat.",
+      "created": "2025-12-15T09:30:00",
+      "updated": "2025-12-16T10:00:00"
+    },
+    {
+      "id": 104,
+      "userId": 4,
+      "userDogId": 6,
+      "petSitterId": 1,
+      "fromDate": "2026-03-10",
+      "toDate": "2026-03-12",
+      "status": "pending",
+      "message": "Er du ledig denne helgen?",
+      "created": "2026-01-05T14:20:00",
+      "updated": "2026-01-05T14:20:00"
+    },
+    {
+      "id": 105,
+      "userId": 5,
+      "userDogId": 7,
+      "petSitterId": 1,
+      "fromDate": "2025-12-24",
+      "toDate": "2025-12-27",
+      "status": "canceled",
+      "message": "Vi ble hjemme i julen likevel.",
+      "created": "2025-11-20T11:00:00",
+      "updated": "2025-12-01T09:00:00"
+    },
+    {
+      "id": 106,
+      "userId": 6,
+      "userDogId": 8,
+      "petSitterId": 1,
+      "fromDate": "2026-01-15",
+      "toDate": "2026-01-16",
+      "status": "finished",
+      "message": "Kort pass for Molly.",
+      "created": "2026-01-02T16:00:00",
+      "updated": "2026-01-17T10:00:00"
+    },
+    {
+      "id": 107,
+      "userId": 1,
+      "userDogId": 2,
+      "petSitterId": 2,
+      "fromDate": "2026-02-20",
+      "toDate": "2026-02-22",
+      "status": "pending",
+      "message": "Max er sterk, håper det går bra.",
+      "created": "2026-01-10T12:00:00",
+      "updated": "2026-01-10T12:00:00"
+    },
+    {
+      "id": 108,
+      "userId": 3,
+      "userDogId": 5,
+      "petSitterId": 6,
+      "fromDate": "2025-10-05",
+      "toDate": "2025-10-10",
+      "status": "finished",
+      "message": "Tundra elsker å løpe.",
+      "created": "2025-09-20T08:00:00",
+      "updated": "2025-10-11T12:00:00"
+    },
+    {
+      "id": 109,
+      "userId": 2,
+      "userDogId": 3,
+      "petSitterId": 3,
+      "fromDate": "2026-04-01",
+      "toDate": "2026-04-05",
+      "status": "accepted",
+      "message": "Påskeferiepass.",
+      "created": "2026-01-05T10:00:00",
+      "updated": "2026-01-06T09:00:00"
+    },
+    {
+      "id": 110,
+      "userId": 5,
+      "userDogId": 7,
+      "petSitterId": 2,
+      "fromDate": "2026-01-20",
+      "toDate": "2026-01-21",
+      "status": "canceled",
+      "message": "Måtte avlyse pga sykdom.",
+      "created": "2026-01-15T08:30:00",
+      "updated": "2026-01-19T14:00:00"
+    },
+    {
+      "id": 111,
+      "userId": 4,
+      "userDogId": 6,
+      "petSitterId": 4,
+      "fromDate": "2026-02-14",
+      "toDate": "2026-02-15",
+      "status": "pending",
+      "message": "Trenger pass på Valentines.",
+      "created": "2026-01-20T18:00:00",
+      "updated": "2026-01-20T18:00:00"
+    },
+    {
+      "id": 112,
+      "userId": 6,
+      "userDogId": 8,
+      "petSitterId": 5,
+      "fromDate": "2025-09-15",
+      "toDate": "2025-09-16",
+      "status": "finished",
+      "message": "Mollys første pass.",
+      "created": "2025-09-01T12:00:00",
+      "updated": "2025-09-17T10:00:00"
+    },
+    {
+      "id": 113,
+      "userId": 1,
+      "userDogId": 1,
+      "petSitterId": 3,
+      "fromDate": "2026-05-17",
+      "toDate": "2026-05-18",
+      "status": "accepted",
+      "message": "Bella er redd for korpsmusikk, trenger rolig sted.",
+      "created": "2026-01-01T12:00:00",
+      "updated": "2026-01-02T10:00:00"
+    },
+    {
+      "id": 114,
+      "userId": 3,
+      "userDogId": 4,
+      "petSitterId": 6,
+      "fromDate": "2026-03-01",
+      "toDate": "2026-03-03",
+      "status": "pending",
+      "message": "Helgetur.",
+      "created": "2026-02-01T09:00:00",
+      "updated": "2026-02-01T09:00:00"
+    },
+    {
+      "id": 115,
+      "userId": 2,
+      "userDogId": 3,
+      "petSitterId": 5,
+      "fromDate": "2025-12-01",
+      "toDate": "2025-12-05",
+      "status": "finished",
+      "message": "Takk for sist!",
+      "created": "2025-11-01T14:00:00",
+      "updated": "2025-12-06T11:00:00"
+    },
+    {
+      "id": 116,
+      "userId": 5,
+      "userDogId": 7,
+      "petSitterId": 2,
+      "fromDate": "2026-06-01",
+      "toDate": "2026-06-14",
+      "status": "accepted",
+      "message": "Feriepass i to uker.",
+      "created": "2026-01-10T10:00:00",
+      "updated": "2026-01-11T09:00:00"
+    },
+    {
+      "id": 117,
+      "userId": 4,
+      "userDogId": 6,
+      "petSitterId": 4,
+      "fromDate": "2025-11-28",
+      "toDate": "2025-11-30",
+      "status": "finished",
+      "message": "Kort helgeopphold.",
+      "created": "2025-11-01T15:00:00",
+      "updated": "2025-12-01T10:00:00"
+    },
+    {
+      "id": 118,
+      "userId": 6,
+      "userDogId": 8,
+      "petSitterId": 3,
+      "fromDate": "2026-02-28",
+      "toDate": "2026-03-01",
+      "status": "canceled",
+      "message": "Molly har løpetid.",
+      "created": "2026-02-15T08:00:00",
+      "updated": "2026-02-20T12:00:00"
+    },
+    {
+      "id": 119,
+      "userId": 1,
+      "userDogId": 2,
+      "petSitterId": 6,
+      "fromDate": "2026-04-10",
+      "toDate": "2026-04-12",
+      "status": "pending",
+      "message": "Max trenger turkamerat.",
+      "created": "2026-03-01T10:00:00",
+      "updated": "2026-03-01T10:00:00"
+    },
+    {
+      "id": 120,
+      "userId": 3,
+      "userDogId": 5,
+      "petSitterId": 5,
+      "fromDate": "2026-07-01",
+      "toDate": "2026-07-05",
+      "status": "pending",
+      "message": "Sommerferie.",
+      "created": "2026-01-20T11:00:00",
+      "updated": "2026-01-20T11:00:00"
+    },
+    {
+      "id": 121,
+      "userId": 2,
+      "userDogId": 3,
+      "petSitterId": 4,
+      "fromDate": "2026-01-05",
+      "toDate": "2026-01-07",
+      "status": "finished",
+      "message": "Takk for hjelpen på kort varsel.",
+      "created": "2026-01-03T09:00:00",
+      "updated": "2026-01-08T10:00:00"
+    }
+  ]
+}
