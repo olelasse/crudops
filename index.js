@@ -86,7 +86,7 @@ server.post("/api/reset", (request, response) => {
   response.status(200).send();
 });
 
-/* Endepunkt: Login med e-post og passord. Returnerer API_KEY ved gyldig innlogging. */
+/* Endepunkt: Login med e-post og passord. Returnerer type og id ved gyldig innlogging. */
 server.post("/api/login", (request, response) => {
   const { email, password, usertype } = request.body || {};
   const identifier = email;
@@ -98,8 +98,12 @@ server.post("/api/login", (request, response) => {
     return;
   }
 
-  // Må legge inn en sjekk her for usertype. og legge til riktig routing!
-  const users = router.db.get("users").value();
+  let users = router.db.get("users").value();
+  if (usertype == "dogowner") {
+    users = router.db.get("users").value();
+  } else if (usertype == "dogsitter") {
+    users = router.db.get("petSitters").value();
+  }
   const user = users.find((u) => u.email === identifier);
 
   if (!user) {
@@ -114,7 +118,7 @@ server.post("/api/login", (request, response) => {
     return;
   }
 
-  response.status(200).json({ API_KEY: process.env.API_KEY });
+  response.status(200).json({ type: usertype, id: user.id });
 });
 
 /* Endepunkt: Bytt ut :code med ønsket HTTP-statuskode, og APIet sender en respons tilbake med den statuskoden. Nyttig for testing av 404, 500 og så videre. */
