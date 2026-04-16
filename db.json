@@ -121,12 +121,32 @@
       ],
       "created": "2025-09-08T16:30:00",
       "updated": "2025-09-09T08:45:00"
+    },
+    {
+      "id": 7,
+      "userName": "Test Hundeeier",
+      "password": "test123",
+      "email": "test@bruker.no",
+      "description": "Test bruker",
+      "dogs": [
+        {
+          "id": 8,
+          "name": "Molly",
+          "breed": "Cocker Spaniel",
+          "age": 1,
+          "allergies": []
+        }
+      ],
+      "created": "2025-09-08T16:30:00",
+      "updated": "2025-09-09T08:45:00"
     }
   ],
   "petSitters": [
     {
       "id": 1,
       "name": "Kari Hansen",
+      "email": "kari.hansen@example.no",
+      "password": "KariPassord123",
       "location": "Oslo",
       "pricePerDay": 400,
       "rating": 4.6,
@@ -143,6 +163,8 @@
     {
       "id": 2,
       "name": "Per Olsen",
+      "email": "per.olsen@pmail.com",
+      "password": "Vaffel35",
       "location": "Bergen",
       "pricePerDay": 350,
       "rating": 4.2,
@@ -159,6 +181,8 @@
     {
       "id": 3,
       "name": "Trine Bakke",
+      "email": "trine.bakke@online.no",
+      "password": "HundePass1!",
       "location": "Trondheim",
       "pricePerDay": 500,
       "rating": 4.9,
@@ -175,6 +199,8 @@
     {
       "id": 4,
       "name": "Anders Nilsen",
+      "email": "anders.nilsen.stud@gmail.com",
+      "password": "StudentLuv2025",
       "location": "Stavanger",
       "pricePerDay": 250,
       "rating": 3.8,
@@ -191,6 +217,8 @@
     {
       "id": 5,
       "name": "Silje Berg",
+      "email": "silje.instruktor@hundetrening.no",
+      "password": "AlphaDog77",
       "location": "Tromsø",
       "pricePerDay": 600,
       "rating": 5.0,
@@ -207,6 +235,26 @@
     {
       "id": 6,
       "name": "Mohamed Ali",
+      "email": "mohamed.ali88@example.com",
+      "password": "OsloSitter2026",
+      "location": "Oslo",
+      "pricePerDay": 300,
+      "rating": 4.5,
+      "reviewCount": 6,
+      "maxDogs": 2,
+      "acceptsPuppies": false,
+      "acceptsLargeDogs": true,
+      "yearsOfExperience": 4,
+      "experienceDescription": "Vant med aktive raser som Husky og Malamute.",
+      "available": true,
+      "created": "2025-09-10T14:00:00",
+      "updated": "2025-09-18T10:00:00"
+    },
+    {
+      "id": 7,
+      "name": "Test hundepasser",
+      "email": "test@hundepasser.no",
+      "password": "test123",
       "location": "Oslo",
       "pricePerDay": 300,
       "rating": 4.5,
