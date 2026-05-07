@@ -522,5 +522,35 @@
       "created": "2026-01-03T09:00:00",
       "updated": "2026-01-08T10:00:00"
     }
+  ],
+  "reviews": [
+    {
+      "petsitterId": 2,
+      "rating": 1,
+      "created": "2026-05-03T17:37:36.938Z",
+      "updated": "2026-05-03T17:37:36.938Z",
+      "id": 2
+    },
+    {
+      "petsitterId": 1,
+      "rating": 5,
+      "created": "2026-05-03T17:37:51.121Z",
+      "updated": "2026-05-07T15:15:53.577Z",
+      "id": 3
+    },
+    {
+      "petsitterId": 3,
+      "rating": 5,
+      "created": "2026-05-03T18:11:52.900Z",
+      "updated": "2026-05-03T18:11:52.900Z",
+      "id": 4
+    },
+    {
+      "petsitterId": 5,
+      "rating": 5,
+      "created": "2026-05-03T18:11:55.542Z",
+      "updated": "2026-05-03T18:11:55.542Z",
+      "id": 5
+    }
   ]
 }
